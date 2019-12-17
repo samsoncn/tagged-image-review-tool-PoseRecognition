@@ -3,7 +3,8 @@
 A web based tool to label images for objects that can be used to train dlib or other object detectors.
 
 [![first-timers-only](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](http://www.firsttimersonly.com/)
-The original version of imglab is careted by NaturalIntelligence and this is a modified version of imglab.
+
+* The original version of imglab is careted by NaturalIntelligence and this is a modified version of imglab.
 
 ## Features
 
