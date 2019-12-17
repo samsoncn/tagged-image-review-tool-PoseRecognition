@@ -23,32 +23,18 @@ A web based tool to label images for objects that can be used to train dlib or o
 
 ImgLab is platform independent, runs directly from the browser, and has no prerequisites. It requires minimal CPU and memory.
 
-### Auto suggestion
+## New Modified Features
 
-![Auto suggestion](/img/imglab-autosuggestion.gif)
+* This ImgLab had been modified for full body PoseRecognition in a total of 15 keypoints, by following COCO dataset. The purpose of this feature is to allow users to collect data and get the data to for the AI machine learning tuning/training.
+* Upload their previous dataset from the tool,then can check and fix for the images that had mistake or bad annotations.
 
-### Plugins
-
-![Plugins](/img/imglab-fpp.gif)
-
-### Different Shapes
-
-![Plugins](/img/imglab-polygon.gif)
-
-### Keyboard Shortcuts:
-
-![Hotkeys](/img/imglab-hotkeys.gif)
-
-### Zoom In/Out:
-
-![Hotkeys](/img/imglab-zoom.gif)
+If you don't know what COCO dataset is, check this out http://cocodataset.org/#home.
 
 **Other features**:
 
 * Special attention for dlib users. You can easily adjust the order of parts / landmarks / featurepoints.
 * Open-source and free forever.
 * You can draw feature points and shapes (circles, rectangles, polygons). Other shapes like ellipses, lines, curves will be added in the future if there is demand. 
-* Small project file so it can be shared over the mail. In [निम्न (Nimn)](http://nimn.in) data format
 * Multiple formats are supported
   * dlib XML
   * dlib pts
@@ -83,32 +69,6 @@ To install locally, head to the [Installation Guide](/docs/guide.md/#offline-ins
 * [Zooming in/out](/docs/guide.md/#zoom-inout)
 
 Check the [Demo Video](https://youtu.be/Y-bJo_ylHTw) tutorial/demonstration or the [User Guide](/docs/guide.md) for more details.
-
-## Contributing 
-
-Please read [CONTRIBUTING.md](https://github.com/NaturalIntelligence/imglab/blob/master/.github/First_Time_Contributors.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Built with
-
-This application is built upon following technology stack.
-
-* [jQuery](https://jquery.com)
-* [Bootstrap](https://getbootstrap.com)
-* [Riot.js](https://github.com/riot/riot) - Simple and elegant component-based UI library
-* [SVG.js](http://svgjs.com)
-
-## Showcase your work
-
-While using this library, if you happen to build an open database that can help other users or something you would like to showcase, please raise an issue or PR.
-
-## Worth to mention
-
-- [Stubmatic](https://github.com/NaturalIntelligence/Stubmatic) : Mock web servers and services. Designed specialy for testers and testing. 
-- [अनुमार्गक (anumargak)](https://github.com/node-muneem/anumargak) : Amazing fast router for node web servers.
-- **[मुनीम (Muneem)](https://github.com/node-muneem/muneem)** : Simple and fast web framework designed not only for developers but whole team.
-- [Match it](https://funcards.github.io/match-it/) : Generate Spot it like card game decks. 
-
-*Note that* All above mentioned projects are free to use and welcome contributors.
 
 ## Contributors
 
